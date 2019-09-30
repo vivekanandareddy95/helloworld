@@ -25,10 +25,23 @@
 				<artifactId>mule-maven-plugin</artifactId>
 				<version>${mule.maven.plugin.version}</version>
 				<extensions>true</extensions>
-				<configuration>
-				</configuration>
+			  <configuration>
+        <cloudHubDeployment>
+            <uri>https://anypoint.mulesoft.com</uri>
+            <muleVersion>4.1.4</muleVersion>
+            <username>vivekanandareddyG</username>
+            <password>Vivek@8099</password>
+            <applicationName>rxr-substraction</applicationName>
+            <environment>Sandbox</environment>
+                        <businessGroup>Work Stream - API-led Application Networks</businessGroup>
+            <properties>
+                <key>value</key>
+            </properties>
+        </cloudHubDeployment>
+    </configuration>
 			</plugin>
 		</plugins>
+		
 	</build>
 
 	<dependencies>
